@@ -1,9 +1,13 @@
+import Home from "./pages/Home";
+import TopBar from "./topbar/TopBar";
 
+// component ready 19:54
 function App() {
   return (
-    <div className="App">
-      <h1>horseman</h1>
-    </div>
+    <>
+      <TopBar />
+      <Home />
+    </>
   );
 }
 
