@@ -1,12 +1,14 @@
 import Home from "./pages/Home";
-import TopBar from "./topbar/TopBar";
+import TopBar from "./components/topbar/TopBar";
+import Single from "./pages/single/Single";
+
 
 // component ready 19:54
 function App() {
   return (
     <>
       <TopBar />
-      <Home />
+      <Single />
     </>
   );
 }
